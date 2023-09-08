@@ -1,20 +1,20 @@
 ---
 const stats = [
   {
-    name: 'Years',
-    value: '9',
+    name: 'Años',
+    value: '7',
   },
   {
-    name: 'Experts',
-    value: '15',
+    name: 'Cocineros',
+    value: '5',
   },
   {
-    name: 'Projects',
-    value: '122',
+    name: 'Platillos',
+    value: '30',
   },
   {
-    name: 'Awards',
-    value: "'9'",
+    name: 'Premios',
+    value: '3',
   },
 ];
 ---
@@ -32,26 +32,27 @@ const stats = [
       <div class="flex flex-col gap-10">
         <!-- Mission description -->
         <div class="space-y-8 sm:space-y-12">
-          <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Our mission</h2>
+          <h2 class="text-3xl font-medium tracking-tight sm:text-4xl">Nuestra mision</h2>
           <div class="space-y-6">
-            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
-              Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed
-              consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.
-              Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames
-              senectus vitae.
+            <p class="text-base text-primary-950/70 dark:text-primary-200/70 sm:text-lg">
+              En Tacos Inge, nuestra pasión es la comida auténtica de México. Nuestra misión es
+              llevar a tus papilas gustativas en un emocionante viaje culinario a través de los
+              sabores vibrantes y genuinos de la cocina mexicana. Nos enorgullece ser un faro de
+              autenticidad en el mundo de los tacos, y trabajamos incansablemente para ser el
+              destino favorito de quienes buscan experiencias gastronómicas inolvidables.
             </p>
-            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
-              Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem
-              nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet
-              quam urna. Sollicitudin tristique eros erat odio sed vitae, consequat turpis
-              elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat
-              donec laoreet quam urna.
+            <p class="text-base text-primary-950/70 dark:text-primary-200/70 sm:text-lg">
+              En el corazón de nuestra misión está el compromiso con la calidad. Utilizamos solo los
+              ingredientes más frescos y auténticos, desde las salsas caseras hasta las tortillas
+              recién hechas a mano.
             </p>
-            <p class="text-primary-950/70 dark:text-primary-200/70 text-base sm:text-lg">
-              Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies.
-              Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum
-              consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim
-              fermentum lacus in. Viverra.
+            <p class="text-base text-primary-950/70 dark:text-primary-200/70 sm:text-lg">
+              En Tacos Inge, no solo te alimentamos, sino que también te invitamos a vivir la
+              auténtica experiencia mexicana en cada bocado. Nuestro ambiente es cálido y acogedor,
+              como el abrazo de un amigo en la plaza de un pueblo mexicano. Estamos aquí para
+              compartir la riqueza de nuestra cultura culinaria y crear recuerdos inolvidables para
+              cada comensal. Únete a nosotros en este viaje culinario único y delicioso mientras
+              celebramos la pasión por la comida y la hospitalidad que caracteriza a México."
             </p>
           </div>
         </div>
@@ -60,7 +61,7 @@ const stats = [
         <dl class="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {
             stats.map((stat) => (
-              <div class="border-primary-900/10 dark:border-primary-300/10 rounded-3xl border p-6">
+              <div class="rounded-3xl border border-primary-900/10 p-6 dark:border-primary-300/10">
                 <dt class="text-base">{stat.name}</dt>
                 <dd class="text-3xl font-medium tracking-tight">{stat.value}</dd>
               </div>
