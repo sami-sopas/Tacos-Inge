@@ -6,9 +6,6 @@ import netlify from "@astrojs/netlify/functions";
 
 // https://astro.build/config
 export default defineConfig({
-  experimental: {
-    viewTransitions: true
-  },
   integrations: [tailwind(), compress()],
   output: "server",
   adapter: netlify()
