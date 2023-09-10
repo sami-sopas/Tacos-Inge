@@ -1,6 +1,7 @@
 # Tacos El Inge
 
-Just a static web page for internet programming subject.
+Landing page for internet programming subject.  
+Made with Astro framework.
 
 ## Getting Started
 
